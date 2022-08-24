@@ -1,22 +1,4 @@
 
-
-
-
-
-
-// function myLive(event){
-//     let opay = document.querySelector('.opay')
-//     if(event.target.value > 0){
-//         console.log(opay.value)
-//     }
-
-// let h2 = document.querySelector('.h2')
-
-// h2.innerHTML= opay.value
-
-// }
-// let body = document.createElement('td')
-// body.textContent= opay.value
 let table = document.querySelector('table')
 let opay = document.querySelector('.opay')
 let gender = document.querySelector('.gender')
@@ -24,12 +6,6 @@ let email = document.querySelector('.email')
 let studentClass = document.querySelector('.class')
 let phoneNumber = document.querySelector('.phoneNumber')
 let sn = document.querySelector('.sn')
-// let sn = document.querySelector('.sn').value;
-// let data2 = document.querySelector('.data2')
-// let data3 = document.querySelector('.data3')
-// let data4 = document.querySelector('.data4')
-// let data5 = document.querySelector('.data5')
-// let data6 = document.querySelector('.data6')
 document.querySelector('.add').addEventListener('click', start)
 
 
