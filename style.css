@@ -1,0 +1,103 @@
+.ody{
+    background-image: url(./images/IMG_6061.PNG);
+    width: 100%;
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+   
+}
+.dark{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.244);
+    
+}
+.gbe{
+    width: 95%;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.153);
+    border-radius: 20px;
+    backdrop-filter: blur(1px);
+    padding: 20px 10px;
+    margin-bottom: 20px;
+}
+.box{
+    width: 90%;
+    height: 200px;
+    background-color: blue;
+    margin: 0 auto;
+    border-radius: 20px;
+    position: relative;
+}
+.user{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    padding: 5px 10px;
+    border: none;
+    box-shadow:inset 0 0 10px rgb(152, 151, 151);
+    font-size: 15px;
+    margin-bottom: 20px !important;
+}
+.before{
+    position: relative;
+}
+.before::before{
+  content: '';
+  width: 40px;
+  height: 3px;
+  background-color: red;
+  position: absolute;
+  bottom: 15;
+  left: 0;
+}
+table{
+    width: 100%;
+    text-align: center;
+    color: white;
+   
+}
+.before::after{
+    content: '';
+    width: 40px;
+    height: 3px;
+    background-color: red;
+    position: absolute;
+    bottom: 15;
+    right: 45;
+  }
+
+body{
+    margin: 0;
+}
+.dar{
+    width: 90%;
+   min-height: 500px;
+    background: -webkit-linear-gradient(right, rgba(255, 0, 0, 0.319), rgba(0, 128, 0, 0.26), rgba(255, 166, 0, 0.341));
+    margin: 0 auto;
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+}
+table{
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+   
+}
+.add{
+    padding: 15px 10px;
+    width: 80%;
+    text-align: center;
+    /* margin: 0 auto; */
+outline: none !important;
+border-radius: 10px !important;
+border: none;
+font-size: 20px !important;
+font-weight: bolder;
+background: -webkit-linear-gradient(right, red, green, orange) ;
+color: white;
+}
+.add:hover{
+    background: -webkit-linear-gradient(left, red, green, orange);
+}
